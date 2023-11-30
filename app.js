@@ -16,7 +16,7 @@ btn.addEventListener("click", function(){
     inp.value = "";
 });
 
-ul.addEventListener("click", function(event){      // delete for bubbling 
+ul.addEventListener("click", function(event){      // delete from bubbling 
     if(event.target.nodeName == "BUTTON"){
         let listItem = event.target.parentElement;
         listItem.remove();
